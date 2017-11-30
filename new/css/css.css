@@ -27,24 +27,24 @@ ul{
 	float: none;
 	position: relative;
 	display: inline-block;
+	margin-right:10px;
 }
 .blackmenu  li a{
 position: relative;
 display: block;
 padding: 20px;
-margin-right:10px ;
 }
 .blackmenu  li img{
 display: block;
 transform:scale(0.5);
 }
-.logchange{
+li.logchange{
 	margin-right:135px ;
 }
 .log{
 	position: absolute;
 	display: block;
-	left: 41.5%;
+	left: 40.5%;
 	background-color: black;
 	width: 100px;
 	padding: 12px;
