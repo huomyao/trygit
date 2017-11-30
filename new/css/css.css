@@ -1,0 +1,57 @@
+*{
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+a{
+	color: inherit;
+	text-decoration: none;
+}
+ul{
+	    list-style: none;
+}
+.center{
+	position: relative;
+	width: 900px;
+	margin: 0 auto;
+}
+#headermenu{
+	background: rgba(33,45,57,0.8);
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+}
+.blackmenu  li{
+	height: auto;
+	float: none;
+	position: relative;
+	display: inline-block;
+}
+.blackmenu  li a{
+position: relative;
+display: block;
+padding: 20px;
+margin-right:10px ;
+}
+.blackmenu  li img{
+display: block;
+transform:scale(0.5);
+}
+.logchange{
+	margin-right:135px ;
+}
+.log{
+	position: absolute;
+	display: block;
+	left: 41.5%;
+	background-color: black;
+	width: 100px;
+	padding: 12px;
+	border-radius: 0 0 100% 100%;
+}
+.log img{
+	vertical-align: middle;
+	max-height: 100%;
+	max-width: 100%;
+}
